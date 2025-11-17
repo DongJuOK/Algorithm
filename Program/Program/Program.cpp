@@ -2,26 +2,77 @@
 
 using namespace std;
 
-int main()
+void sieve(int n)
 {
-#pragma region 유클리드 호제법
-	// 2개의 자연수 또는 정시의 최대 공약수를 구하는 방식으로
-	// 두 수가 서로 상대방 수를 나누어서 원하는 수를 얻어내는 알고리즘입니다.
+	bool * list = new bool[n + 1];
 
-	int x = 2304;
-	int y = 1440;
+	for (int i = 0; i <= n; i++)
+		list[i] = true;
 
-	int result = 0;
+	list[0] = list[1] = false;
 
-	for (int i = 1; i <= x && i <= y; i++)
+	for (int i = 2; i * i < n; i++)
 	{
-		if (x % i == 0 && y % i == 0)
+		list[i] = i + 1;
+
+		for (int j = i * i; j <= n; j += i)
 		{
-			result = i;
+			list[j - 1] = 0;
 		}
 	}
 
-	cout << "Greatest Common Divisor : " << result << endl;
+	delete[] list;
+}
+
+int main()
+{
+#pragma region 에라토스테네스의 체
+	int n = 17;
+
+	for (int i = 2; i <= n; i++)
+	{
+		bool flag = true;
+
+		for (int j = 2; j < i; j++)
+		{
+			if (i % j == 0)
+			{
+				flag = false;
+
+				break;
+			}
+		}
+		
+		if (flag)
+		{
+			cout << i << " ";
+		}
+	}
+
+	//  int list[50];
+	//  
+	//  int size = sizeof(list) / sizeof(list[0]);
+	//  
+	//  for (int i = 0; i < size; i++)
+	//  {
+	//  	list[i] = i + 1;
+	//  
+	//  	for (int j = 2; j < list[i]; j++)
+	//  	{
+	//  		if (list[i] % j == 0)
+	//  		{
+	//  			list[i] = 0;
+	//  			break;
+	//  		}
+	//  	}
+	//  }
+	//  
+	//  list[0] = 0;
+	//  
+	//  for (const auto & element : list)
+	//  {
+	//  	cout << element << " ";
+	//  }
 
 #pragma endregion
 
