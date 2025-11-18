@@ -12,11 +12,20 @@ int max(int list[], int left, int right)
 		{
 			left = i;
 		}
-		else
+		else 
 		{
-			right = i;
+			if (i >= size / 2)
+			{
+				right = i;
+			}
 		}
 	}
+
+	if (right == 0)
+		return list[right];
+
+	return max(list[left], left - 1, left);
+	return max(list[right], right - 1, right);
 }
 
 int main()
@@ -34,8 +43,6 @@ int main()
 	// 통합 (Combine) : 나누어서 해결한 문제들을 통합해서 원래 문제의 해답을 생성합니다.
 
 	int list[] = { 20, 15, 99, 1 };
-
-	int size = sizeof(list) / sizeof(list[0]);
 
 #pragma endregion
 
