@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Algorithm\\Program\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Algorithm\\Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0DC72FEB-30A1-45E3-AD71-576DF65703A6}|Program\\Program.vcxproj|C:\\Users\\user\\Desktop\\Algorithm\\Program\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{0DC72FEB-30A1-45E3-AD71-576DF65703A6}|Program\\Program.vcxproj|C:\\Users\\Administrator\\Desktop\\Algorithm\\Program\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0DC72FEB-30A1-45E3-AD71-576DF65703A6}|Program\\Program.vcxproj|solutionrelative:Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1DE758D2-A378-4544-A140-16E7C4A9D5E9}|Class6th (Euclidean)\\Class6th (Euclidean).vcxproj|C:\\Users\\user\\Desktop\\Algorithm\\Program\\Class6th (Euclidean)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1DE758D2-A378-4544-A140-16E7C4A9D5E9}|Class6th (Euclidean)\\Class6th (Euclidean).vcxproj|solutionrelative:Class6th (Euclidean)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{102C35D0-2043-4534-A058-6791AC7EB193}|Class9th (Divide and Conquer)\\Class9th (Divide and Conquer).vcxproj|C:\\Users\\Administrator\\Desktop\\Algorithm\\Program\\Class9th (Divide and Conquer)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{102C35D0-2043-4534-A058-6791AC7EB193}|Class9th (Divide and Conquer)\\Class9th (Divide and Conquer).vcxproj|solutionrelative:Class9th (Divide and Conquer)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,23 +24,24 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Source.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Algorithm\\Program\\Class6th (Euclidean)\\Source.cpp",
-              "RelativeDocumentMoniker": "Class6th (Euclidean)\\Source.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Algorithm\\Program\\Class6th (Euclidean)\\Source.cpp",
-              "RelativeToolTip": "Class6th (Euclidean)\\Source.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algorithm\\Program\\Class9th (Divide and Conquer)\\Source.cpp",
+              "RelativeDocumentMoniker": "Class9th (Divide and Conquer)\\Source.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algorithm\\Program\\Class9th (Divide and Conquer)\\Source.cpp",
+              "RelativeToolTip": "Class9th (Divide and Conquer)\\Source.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-18T12:10:27.342Z"
+              "WhenOpened": "2025-11-19T09:45:36.17Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cpp",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Algorithm\\Program\\Program\\Program.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algorithm\\Program\\Program\\Program.cpp",
               "RelativeDocumentMoniker": "Program\\Program.cpp",
-              "ToolTip": "C:\\Users\\user\\Desktop\\Algorithm\\Program\\Program\\Program.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algorithm\\Program\\Program\\Program.cpp",
               "RelativeToolTip": "Program\\Program.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-12T09:12:17.401Z",
               "EditorCaption": ""

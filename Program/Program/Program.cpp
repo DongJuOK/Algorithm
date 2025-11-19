@@ -2,47 +2,47 @@
 
 using namespace std;
 
-int max(int list[], int left, int right)
+void find(int list[], int search, int left, int right)
 {
-	int size = sizeof(list) / sizeof(list[0]);
-
-	for (int i = 0; i < size; i++)
+	if (left > right)
 	{
-		if (i < size / 2)
-		{
-			left = i;
-		}
-		else 
-		{
-			if (i >= size / 2)
-			{
-				right = i;
-			}
-		}
+		cout <<  "Not Found" << endl;
+		return;
 	}
 
-	if (right == 0)
-		return list[right];
+	int pivot = (left + right) / 2;
 
-	return max(list[left], left - 1, left);
-	return max(list[right], right - 1, right);
+	if (list[pivot] == search)
+	{
+		cout << list[pivot] << endl;
+	}
+	else if (list[pivot] < search)
+	{
+		find(list, search, pivot + 1, right);
+	}
+	else
+	{
+		find(list, search, left, pivot - 1);
+	}
+}
+
+void find(int list[], int size, int search)
+{
+	int pivot;
+
 }
 
 int main()
 {
-#pragma region 분할 정복
-	// 2개 이상의 부분으로 주어진 문제를 나눈 뒤 각 부분
-	// 문제에 대한 답을 재귀로 호출하여 계산한 다음, 그
-	// 답으로부터 전체 문제의 답을 계산하는 알고리즘입니다.
+#pragma region 이분 탐색
+	// 탐색 범위를 반으로 나누어 찾는 값을 포함하는 범위를
+	// 좁혀나가는 방식으로 동작하는 알고리즘입니다.
+	
+	// 정렬이 되어 있을때만 씀
 
-	// 분할 (Divide) : 주어진 문제를 두 개 혹은 그 이상의 형식으로 나눈다.
+	int list[] = { 5, 6, 11, 13, 27, 55, 66, 92 };
 
-	// 정복 (Conquer) : 나누어진 문제를 재귀적으로 해결해서 나누어진 문제를
-	// 더 이상 나누어서 문제가 필요없을 때까지 계속 분할합니다.
-
-	// 통합 (Combine) : 나누어서 해결한 문제들을 통합해서 원래 문제의 해답을 생성합니다.
-
-	int list[] = { 20, 15, 99, 1 };
+	find(list, 44, 0, 7);
 
 #pragma endregion
 
