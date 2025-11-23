@@ -23,7 +23,20 @@ void combine(int list[], int start, int middle, int end)
 		}
 	}
 
-	list = container;
+	while (left <= middle)
+	{
+		container[count++] = list[left++];
+	}
+
+	while (right <= end)
+	{
+		container[count++] = list[right++];
+	}
+
+	for (int i = 0; i < count; i++)
+	{
+		list[start + i] = container[i];
+	}
 
 	delete[] container;
 }
@@ -36,33 +49,6 @@ void merge_sort(int list[], int start, int end)
 
 		merge_sort(list, start, middle);
 		merge_sort(list, middle + 1, end);
-	}
-}
-
-void combine(int list[], int start, int middle, int end)
-{
-	if ((start + end) <= (middle + 1) * 2)
-	{
-		int * container = new int[(middle + 1) * 2];
-
-		if (start == end)
-		{
-			container[start] = list[start];
-		}
-		else
-		{
-			if (list[start] > list[middle + 1])
-			{
-				container[start] = list[middle + 1];
-				middle++;
-			}
-			else
-			{
-				start++;
-			}
-		}
-
-		combine(list, start, middle, end);
 	}
 }
 
