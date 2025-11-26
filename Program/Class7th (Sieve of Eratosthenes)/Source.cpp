@@ -4,35 +4,6 @@ using namespace std;
 
 void sieve(int n)
 {
-	bool * list = new bool[n + 1];
-
-	for (int i = 0; i <= n; i++)
-		list[i] = true;
-
-	list[0] = list[1] = false;
-
-	for (int i = 2; sqrt(i) <= n; i++)
-	{
-		if (list[i])
-		{
-			for (int j = i * i; j <= n; j += i)
-			{
-				list[j] = 0;
-			}
-		}
-	}
-
-	for (int i = 2; i <= n; i++)
-	{
-		if (list[i])
-			cout << i << " ";
-	}
-
-	delete[] list;
-}
-
-void sieve(int n)
-{
 	int * container = new int[n + 1];
 
 	for (int i = 0; i <= n; i++)
@@ -60,6 +31,8 @@ void sieve(int n)
 			cout << container[i] << endl;
 		}
 	}
+
+	delete[] container;
 }
 
 int main()
