@@ -5,10 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0DC72FEB-30A1-45E3-AD71-576DF65703A6}|Program\\Program.vcxproj|C:\\Users\\Administrator\\Desktop\\Algorithm\\Program\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0DC72FEB-30A1-45E3-AD71-576DF65703A6}|Program\\Program.vcxproj|solutionrelative:Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98969A3E-A8A7-4722-BE96-3A4D52E16B9D}|Class15th (Depth First Search)\\Class15th (Depth First Search).vcxproj|C:\\Users\\Administrator\\Desktop\\Algorithm\\Program\\Class15th (Depth First Search)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{98969A3E-A8A7-4722-BE96-3A4D52E16B9D}|Class15th (Depth First Search)\\Class15th (Depth First Search).vcxproj|solutionrelative:Class15th (Depth First Search)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,21 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Source.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algorithm\\Program\\Class15th (Depth First Search)\\Source.cpp",
-              "RelativeDocumentMoniker": "Class15th (Depth First Search)\\Source.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algorithm\\Program\\Class15th (Depth First Search)\\Source.cpp",
-              "RelativeToolTip": "Class15th (Depth First Search)\\Source.cpp",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-26T10:14:42.082Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -41,7 +24,7 @@
               "RelativeDocumentMoniker": "Program\\Program.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algorithm\\Program\\Program\\Program.cpp",
               "RelativeToolTip": "Program\\Program.cpp",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwBIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-12T09:12:17.401Z",
               "EditorCaption": ""
