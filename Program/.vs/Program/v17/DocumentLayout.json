@@ -5,18 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0DC72FEB-30A1-45E3-AD71-576DF65703A6}|Program\\Program.vcxproj|C:\\Users\\Administrator\\Desktop\\Algorithm\\Program\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0DC72FEB-30A1-45E3-AD71-576DF65703A6}|Program\\Program.vcxproj|solutionrelative:Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98969A3E-A8A7-4722-BE96-3A4D52E16B9D}|Class15th (Depth First Search)\\Class15th (Depth First Search).vcxproj|C:\\Users\\Administrator\\Desktop\\Algorithm\\Program\\Class15th (Depth First Search)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{98969A3E-A8A7-4722-BE96-3A4D52E16B9D}|Class15th (Depth First Search)\\Class15th (Depth First Search).vcxproj|solutionrelative:Class15th (Depth First Search)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58ABA76D-22E7-474C-AEBF-1E471837F81A}|Class16th (Breadth First Search)\\Class16th (Breadth First Search).vcxproj|C:\\Users\\Administrator\\Desktop\\Algorithm\\Program\\Class16th (Breadth First Search)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{58ABA76D-22E7-474C-AEBF-1E471837F81A}|Class16th (Breadth First Search)\\Class16th (Breadth First Search).vcxproj|solutionrelative:Class16th (Breadth First Search)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61B86121-8232-4FA9-BB46-0E9CA467E3A1}|Class17th (Topology Sort)\\Class17th (Topology Sort).vcxproj|C:\\Users\\Administrator\\Desktop\\Algorithm\\Program\\Class17th (Topology Sort)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{61B86121-8232-4FA9-BB46-0E9CA467E3A1}|Class17th (Topology Sort)\\Class17th (Topology Sort).vcxproj|solutionrelative:Class17th (Topology Sort)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,47 +14,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Source.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algorithm\\Program\\Class15th (Depth First Search)\\Source.cpp",
-              "RelativeDocumentMoniker": "Class15th (Depth First Search)\\Source.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algorithm\\Program\\Class15th (Depth First Search)\\Source.cpp",
-              "RelativeToolTip": "Class15th (Depth First Search)\\Source.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-01T09:17:15.603Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Source.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algorithm\\Program\\Class16th (Breadth First Search)\\Source.cpp",
-              "RelativeDocumentMoniker": "Class16th (Breadth First Search)\\Source.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algorithm\\Program\\Class16th (Breadth First Search)\\Source.cpp",
-              "RelativeToolTip": "Class16th (Breadth First Search)\\Source.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-01T09:17:10.275Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Source.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Algorithm\\Program\\Class17th (Topology Sort)\\Source.cpp",
-              "RelativeDocumentMoniker": "Class17th (Topology Sort)\\Source.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algorithm\\Program\\Class17th (Topology Sort)\\Source.cpp",
-              "RelativeToolTip": "Class17th (Topology Sort)\\Source.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-01T09:08:12.51Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -75,7 +24,7 @@
               "RelativeDocumentMoniker": "Program\\Program.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Algorithm\\Program\\Program\\Program.cpp",
               "RelativeToolTip": "Program\\Program.cpp",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAwB0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-12T09:12:17.401Z",
               "EditorCaption": ""
