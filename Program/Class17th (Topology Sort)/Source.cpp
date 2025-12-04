@@ -17,7 +17,7 @@ private:
 	unordered_map<T, vector<T>> adjacencyList;
 
 public:
-	void insert(const T& i, const T& j)
+	void insert(const T & i, const T & j)
 	{
 		adjacencyList[i].push_back(j);
 
@@ -38,7 +38,7 @@ public:
 
 		int count = 0;
 
-		for (const T& element : vertices)
+		for (const T & element : vertices)
 		{
 			if (degree[element] == 0)
 			{
@@ -56,7 +56,7 @@ public:
 
 			count++;
 
-			for (const T& element : adjacencyList[x])
+			for (const T & element : adjacencyList[x])
 			{
 				degree[element]--;
 

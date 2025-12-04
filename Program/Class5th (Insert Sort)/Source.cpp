@@ -28,7 +28,7 @@ int main()
 		list[j + 1] = key;
 	}
 
-	for (const auto& element : list)
+	for (const auto & element : list)
 	{
 		cout << element << " ";
 	}
